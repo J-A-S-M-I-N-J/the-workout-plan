@@ -100,3 +100,11 @@ h1 {
     text-align: center;
     font-size: x-large;
 }
+
+#guide-header {
+    text-align: center;
+}
+
+#guide-flavor-text {
+    text-align: center;
+}
