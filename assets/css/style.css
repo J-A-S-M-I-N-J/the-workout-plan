@@ -1,0 +1,9 @@
+#before-text>img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+#after-text>img {
+    max-height: 400px;
+    max-width: 400px;
+}
