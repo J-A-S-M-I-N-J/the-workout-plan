@@ -68,64 +68,113 @@
     <section id="guide">
         <div>
             <h2 id="guide-header">The Guide</h2>
+            <p id="guide-flavor-text">The Workout Plan goes by the <strong>3 x 8 rule</strong> meaning, in every
+                exercise, choose the
+                weight you can manage 3 sets of, with 8 repetitions. As you progress on your strength journey, increase
+                the weight to always keep to the <strong>3 x 8 rule</strong>.</p>
         </div>
 
         <div id="exercise-1">
-            <video src="" alt=""></video>
-            <h3>Chest & Triceps</h3>
-            <ul>
-                <li>Bench Press</li>
-                <li>Dumbbell Flyes</li>
-                <li>Incline Bench Press</li>
-                <br>
-                <li>Skullcrushers</li>
-                <li>Overhead Cable Tricep Extentions</li>
-                <li>Dips</li>
-            </ul>
-        </div>
-        <div id="exercise-2">
-            <video src="" alt=""></video>
-            <h3>Back & Biceps</h3>
-            <ul>
-                <li>Deadlift</li>
-                <li>Lat Pulldown</li>
-                <li>Reverse Flyes</li>
-                <br>
-                <li>Bicep Curls</li>
-                <li>Hammer Curls</li>
-                <li>Preacher Curls</li>
-            </ul>
-        </div>
-        <div id="exercise-3">
-            <h3>Shoulders & Core</h3>
-            <video src="" alt=""></video>
-
-            <ul>
-                <li>Shoulder Press</li>
-                <li>Kettlebell Upright Row</li>
-                <li>Shrugs</li>
-                <br>
-                <li>Decline Crunches</li>
-                <li>The Plank</li>
-                <li>V-Ups</li>
-            </ul>
-        </div>
-        <div id="exercise-4">
-            <video src="" alt=""></video>
-            <h3>Leg day</h3>
-            <ul>
-                <li>Squats</li>
-                <li>Lunges</li>
-                <li>Leg Extention (Machine)</li>
-                <li>Leg Curl (Machine)</li>
-                <li>Calf Raises</li>
-            </ul>
-        </div>
+            <div class="chest-triceps">
+                <video src="" alt=""></video>
+                <h3>Chest & Triceps</h3>
+                <ul>
+                    <li>Bench Press</li>
+                    <li>Dumbbell Flyes</li>
+                    <li>Incline Bench Press</li>
+                    <br>
+                    <li>Skullcrushers</li>
+                    <li>Overhead Cable Tricep Extentions</li>
+                    <li>Dips</li>
+                </ul>
+            </div>
+            <div id="exercise-2">
+                <div class="back-biceps">
+                    <video src="" alt=""></video>
+                    <h3>Back & Biceps</h3>
+                    <ul>
+                        <li>Deadlift</li>
+                        <li>Lat Pulldown</li>
+                        <li>Reverse Flyes</li>
+                        <br>
+                        <li>Bicep Curls</li>
+                        <li>Hammer Curls</li>
+                        <li>Preacher Curls</li>
+                    </ul>
+                </div>
+                <div id="exercise-3">
+                    <div class="shoulders-core">
+                        <video src="" alt=""></video>
+                        <h3>Shoulders & Core</h3>
+                        <ul>
+                            <li>Shoulder Press</li>
+                            <li>Kettlebell Upright Row</li>
+                            <li>Shrugs</li>
+                            <br>
+                            <li>Decline Crunches</li>
+                            <li>The Plank</li>
+                            <li>V-Ups</li>
+                        </ul>
+                    </div>
+                    <div id="exercise-4">
+                        <div class="legday">
+                            <video src="" alt=""></video>
+                            <h3>Leg day</h3>
+                            <ul>
+                                <li>Squats</li>
+                                <li>Lunges</li>
+                                <li>Leg Extention (Machine)</li>
+                                <li>Leg Curl (Machine)</li>
+                                <li>Calf Raises</li>
+                            </ul>
+                        </div>
     </section>
 
-    <h2>Page 3 Header + Form text</h2>
+    <section id="diet-section">
+        <div id="diet-text">
+            <h2 class="diet-header">The Diet</h2>
+            <p class="diet-flavor-text">In the strength-community there's a saying: <strong>"abs are made in the
+                    kitchen."</strong>What
+                this literally means is that in order to benefit from your hard work in the gym you have to give your
+                body
+                the right building blocks. Think of it as fuel and oil for your car. </p>
+            <br>
+            <p>Luckily, The Workout Plan has a solution for that too. Fill in the form below and get custom diet plans
+                suiting your dietary and/or moral preferences. Receive weekly meal-plans that are both healthy and
+                delicious!</p>
+
+        </div>
+
+        <form method="POST" action="" class="signup">
+            <h2>Sign up here! <i class=""></i></h2>
+
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+
+            <label for="height">Height (cm):</label>
+            <input class="number-input" type="number" min="130" max="250" id="height" name="your_height" required>
+
+            <label for="weight">Weight (kg):</label>
+            <input class="number-input" type="number" min="35" max="350" id="weight" name="your_weight" required>
+
+            <label for="omnivore">Omnivore</label>
+            <input type="radio" id="omnivore" name="food_preference" value="omnivore" required>
+            <label for="vegetarian">Vegetarian</label>
+            <input type="radio" id="vegetarian" name="food_preference" value="vegetarian" required>
+            <label for="vegan">Vegan</label>
+            <input type="radio" id="vegan" name="food_preference" value="vegan" required>
+
+            <input class="signup-button" type="submit" value="Bon Appetit!">
+        </form>
+
     </section>
-    <section> Form</section>
+
 </body>
 <footer> Social Media Footer </footer>
 
