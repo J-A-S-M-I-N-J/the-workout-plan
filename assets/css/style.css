@@ -108,8 +108,8 @@ a {
 
 /*   Peptalk Section     */
 img {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 350px;
+    max-width: 350px;
 }
 
 
@@ -132,11 +132,16 @@ img {
     border: 2px solid #f16c6b;
 }
 
+#provide {
+    margin-top: 60px;
+}
+
 /* Guide Section */
 
 div#guide.row {
-    background-color: #f16c6b;
-    margin-top: 15px;
+    background-color: #A2E4B8;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #guide-header {
@@ -147,8 +152,16 @@ div#guide.row {
 #guide-flavor-text {
     text-align: center;
     font-weight: bold;
-
 }
+
+#video1,
+#video2,
+#video3,
+#video4 {
+    border: 2px solid #A2E4B8;
+    padding: 0px;
+}
+
 
 div#after-text.row {
     margin-top: 15px;
@@ -166,12 +179,18 @@ div#exercise3-4.row {
     margin-bottom: 30px;
 }
 
+/* Diet Section */
+
+div#diet-text.row {
+    background-color: #93bae1;
+}
 
 .signup {
 
-    margin-top: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(241, 108, 107, 1);
     left: 10%;
     padding: 10px
 }
@@ -204,8 +223,8 @@ div#exercise3-4.row {
     padding: 10px 24px 10px 24px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: #DCDCDC;
+    color: black;
     display: block;
 
 }
@@ -213,9 +232,8 @@ div#exercise3-4.row {
 footer {
     padding-top: 3%;
     padding-left: 4%;
+    background-color: #A2E4B8;
 }
-
-
 
 
 
