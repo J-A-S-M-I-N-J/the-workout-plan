@@ -164,11 +164,11 @@ h1 {
 
 .signup {
 
-    margin-top: 3%;
+    margin-top: 1%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     left: 10%;
-    padding: 30px
+    padding: 10px
 }
 
 .text-input {
@@ -194,14 +194,15 @@ h1 {
 }
 
 .signup-button {
-    margin-top: 20px;
+    margin-top: 15px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 10px 24px 10px 24px;
     text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
+
 }
 
 footer {
@@ -231,4 +232,8 @@ div#exercise1-2.row {
 
 div#exercise3-4.row {
     margin-bottom: 30px;
+}
+
+#logo {
+    text-align: center;
 }
