@@ -101,13 +101,6 @@ h1 {
     font-size: x-large;
 }
 
-#guide-header {
-    text-align: center;
-}
-
-#guide-flavor-text {
-    text-align: center;
-}
 
 @media only screen and (max-width: 599px) {
 
@@ -213,4 +206,29 @@ h1 {
 
 footer {
     padding-top: 3%;
+    padding-left: 4%;
+}
+
+#guide-header {
+    text-align: center;
+
+}
+
+#guide-flavor-text {
+    text-align: center;
+
+}
+
+div#after-text.row {}
+
+div#space.row {
+    margin-bottom: 30px;
+}
+
+div#exercise1-2.row {
+    margin-bottom: 30px;
+}
+
+div#exercise3-4.row {
+    margin-bottom: 30px;
 }
