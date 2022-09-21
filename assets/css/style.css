@@ -1,23 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@600&display=swap');
 
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #DCDCDC;
+    color: black;
+}
+
 h1,
 h2,
 h3 {
     font-family: Source Sans Pro, sans-serif;
-}
-
-body {
-    font-family: Montserrat, sans-serif;
-}
-
-#before-text>img {
-    max-height: 400px;
-    max-width: 400px;
-}
-
-#after-text>img {
-    max-height: 400px;
-    max-width: 400px;
+    text-transform: uppercase;
+    font-size: 125%;
 }
 
 * {
@@ -85,82 +79,93 @@ body {
 }
 
 
+/*   Logo & Header Stuff      */
+nav#menu.row.header {
+    background-color: #f16c6b;
+}
+
 .menuitems {
     text-align: center;
     margin-top: 8px;
-    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#logo {
+    text-align: center;
+    color: black;
 }
 
 h1 {
-    margin: 0;
     font-size: xx-large;
+    margin: 0;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*   Peptalk Section     */
+img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
 
 #before h2 {
     text-align: center;
     font-size: x-large;
 }
 
-
-@media only screen and (max-width: 599px) {
-
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
+#img1 {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    border: 2px solid #f16c6b;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1199px) {
-
-    /* For tablets: */
-    .col-s-1 {
-        width: 8.33%;
-    }
-
-    .col-s-2 {
-        width: 16.66%;
-    }
-
-    .col-s-3 {
-        width: 25%;
-    }
-
-    .col-s-4 {
-        width: 33.33%;
-    }
-
-    .col-s-5 {
-        width: 41.66%;
-    }
-
-    .col-s-6 {
-        width: 50%;
-    }
-
-    .col-s-7 {
-        width: 58.33%;
-    }
-
-    .col-s-8 {
-        width: 66.66%;
-    }
-
-    .col-s-9 {
-        width: 75%;
-    }
-
-    .col-s-10 {
-        width: 83.33%;
-    }
-
-    .col-s-11 {
-        width: 91.66%;
-    }
-
-    .col-s-12 {
-        width: 100%;
-    }
+#img2 {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    border: 2px solid #f16c6b;
 }
+
+/* Guide Section */
+
+div#guide.row {
+    background-color: #f16c6b;
+    margin-top: 15px;
+}
+
+#guide-header {
+    text-align: center;
+
+}
+
+#guide-flavor-text {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+div#after-text.row {
+    margin-top: 15px;
+}
+
+div#space.row {
+    margin-bottom: 30px;
+}
+
+div#exercise1-2.row {
+    margin-bottom: 30px;
+}
+
+div#exercise3-4.row {
+    margin-bottom: 30px;
+}
+
 
 .signup {
 
@@ -210,30 +215,15 @@ footer {
     padding-left: 4%;
 }
 
-#guide-header {
-    text-align: center;
 
-}
 
-#guide-flavor-text {
-    text-align: center;
 
-}
 
-div#after-text.row {}
 
-div#space.row {
-    margin-bottom: 30px;
-}
+@media only screen and (max-width: 599px) {
 
-div#exercise1-2.row {
-    margin-bottom: 30px;
-}
-
-div#exercise3-4.row {
-    margin-bottom: 30px;
-}
-
-#logo {
-    text-align: center;
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }
