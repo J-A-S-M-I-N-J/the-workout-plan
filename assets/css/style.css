@@ -96,6 +96,10 @@ nav#menu.row.header {
     color: black;
 }
 
+#logo:hover {
+    color: #93bae1;
+}
+
 h1 {
     font-size: xx-large;
     margin: 0;
@@ -104,6 +108,10 @@ h1 {
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color: #A2E4B8;
 }
 
 /*   Peptalk Section     */
@@ -181,39 +189,49 @@ div#exercise3-4.row {
 
 /* Diet Section */
 
-div#diet-text.row {
+div#diet-header.row {
     background-color: #93bae1;
+    margin-top: 60px;
+    padding: 20px 0px 20px 0px;
+}
+
+div#diet-text.row {
+    background-color: #DCDCDC;
+    margin-top: 20px;
 }
 
 .signup {
 
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    color: #fff;
-    background-color: rgba(241, 108, 107, 1);
+    color: black;
+    background-color: #93bae1;
     left: 10%;
-    padding: 10px
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid black;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: black;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid black;
     border-radius: 2px;
+    font-weight: bold;
 
 }
 
 .number-input {
 
     background: transparent;
-    color: #fafafa;
+    color: black;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid black;
     border-radius: 2px;
 }
 
@@ -223,16 +241,30 @@ div#diet-text.row {
     padding: 10px 24px 10px 24px;
     text-align: center;
     font-size: 100%;
-    background-color: #DCDCDC;
-    color: black;
-    display: block;
+    background-color: black;
+    color: white;
 
+    display: block;
 }
 
+.signup-button:hover {
+    background-color: #93bae1;
+}
+
+.signup-button:focus {
+    background-color: black;
+}
+
+/* Footer */
 footer {
     padding-top: 3%;
     padding-left: 4%;
-    background-color: #A2E4B8;
+    margin-top: 20px;
+    background-color: #f16c6b;
+}
+
+footer a:hover {
+    color: #93bae1;
 }
 
 
