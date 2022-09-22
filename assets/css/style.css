@@ -491,9 +491,51 @@ footer a:hover {
 
     .signup {
         width: 35%;
+
     }
 
     .formblock-2 {
         width: 10%;
 
+    }
+
+    .chest-triceps {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+
+    }
+
+    .back-biceps {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .shoulders-core {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .legday {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    #building {
+        margin-right: 15px;
+    }
+
+    #start {
+        margin-left: 15px;
     }
