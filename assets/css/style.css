@@ -84,6 +84,16 @@ nav#menu.row.header {
     background-color: #f16c6b;
 }
 
+body {
+    height: 100vh;
+    overflow-y: auto
+}
+
+nav {
+    position: sticky;
+    top: 20px;
+}
+
 .menuitems {
     text-align: center;
     margin-top: 8px;
@@ -273,12 +283,11 @@ div#diet-text.row {
 .signup-button {
     margin-top: 15px;
     border-radius: 2px;
-    padding: 10px 24px 10px 24px;
+    padding: 5px 14px 5px 14px;
     text-align: center;
     font-size: 100%;
     background-color: black;
     color: white;
-
     display: block;
 }
 
@@ -371,7 +380,7 @@ footer a:hover {
     }
 
     .radio {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .chest-triceps {
@@ -470,6 +479,10 @@ footer a:hover {
     .formblock-2 {
         width: 20%;
     }
+
+    .radio {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -553,6 +566,11 @@ footer a:hover {
     .chesttopmargin {
         margin-top: 50px;
     }
+
+    .radio {
+        font-size: 13px;
+    }
+
 }
 
 
@@ -628,3 +646,105 @@ footer a:hover {
     .chesttopmargin {
         margin-top: 50px;
     }
+}
+
+@media only screen and (min-width: 1201px) {
+
+    [class*="col-"] {}
+
+    .mealplan {
+        width: 35%;
+    }
+
+    #dietid {
+        width: 10%;
+
+    }
+
+    .formblock {
+        width: 10%;
+    }
+
+    .signup {
+        width: 35%;
+
+    }
+
+    .formblock-2 {
+        width: 10%;
+
+    }
+
+    .chest-triceps {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    .back-biceps {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    .shoulders-core {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    .legday {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+
+    .guidemargin {
+        margin-left: 5%;
+
+    }
+
+    .chesttopmargin {
+        margin-top: 50px;
+    }
+
+    .backpadding {
+        width: 15%;
+    }
+
+    .shoulderpadding {
+        width: 15%;
+    }
+
+    .legpadding {
+        width: 15%;
+    }
+
+    .chestpadding {
+        width: 15%;
+    }
+
+    #building {
+        margin-right: 15px;
+    }
+
+    #start {
+        margin-left: 15px;
+    }
+
+    .eat {
+        margin-top: 30px;
+    }
+}
