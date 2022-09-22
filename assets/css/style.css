@@ -123,7 +123,10 @@ a:hover {
 
 #provide {
     margin-top: 60px;
-    margin-left: 40px;
+}
+
+#pep {
+    text-align: center;
 }
 
 /* Guide Section */
@@ -134,8 +137,19 @@ div#guide.row {
     margin-bottom: 40px;
 }
 
+#guide-left,
+#guide-right {
+    width: 10%;
+}
+
+#guide-center {
+    width: 80%;
+}
+
 #guide-header {
     text-align: center;
+
+
 
 }
 
@@ -150,6 +164,7 @@ div#guide.row {
 #video4 {
     border: 2px solid #A2E4B8;
     padding: 0px;
+
 }
 
 
@@ -169,6 +184,26 @@ div#exercise3-4.row {
     margin-bottom: 30px;
 }
 
+.chest-triceps {
+    display: flex;
+    flex-direction: column;
+}
+
+.back-biceps {
+    display: flex;
+    flex-direction: column;
+}
+
+.shoulders-core {
+    display: flex;
+    flex-direction: column;
+}
+
+.legday {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Diet Section */
 
 div#diet-header.row {
@@ -181,6 +216,11 @@ div#diet-text.row {
     background-color: #DCDCDC;
     margin-top: 20px;
 }
+
+#dietdiet {
+    text-align: center;
+}
+
 
 .signup {
 
@@ -254,55 +294,75 @@ footer a:hover {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
-    [class*="col-"]
-}
 
-#social-col-1 {
-    width: 20%;
+    [class*="col-"] #socialcol {
+        width: 20%;
 
-}
+    }
 
-#social-col-2 {
-    width: 20%;
+    #social-col-2 {
+        width: 20%;
 
-}
+    }
 
-div#after-text.row {
-    margin-top: 15px;
+    div#after-text.row {
+        margin-top: 15px;
 
-}
+    }
 
-#prebuilding {
-    width: 10%;
-}
+    #prebuilding {
+        width: 10%;
+    }
 
 
-#building {
-    width: 40%;
-}
+    #building {
+        width: 100%;
+    }
 
-#start {
-    width: 40%;
-}
+    #start {
+        width: 100%;
+    }
 
-#after-start {
-    width: 10%;
-}
+    #after-start {
+        width: 10%;
+    }
 
-#fb {
-    width: 15%;
-}
+    #fb {
+        width: 15%;
+    }
 
-#tw {
-    width: 15%;
-}
+    #tw {
+        width: 15%;
+    }
 
-#yt {
-    width: 15%;
-}
+    #yt {
+        width: 15%;
+    }
 
-#ig {
-    width: 15%;
+    #ig {
+        width: 15%;
+    }
+
+    .youtube {
+        width: 100%
+    }
+
+    .mealplan {
+        width: 100%
+    }
+
+    .signup {
+        width: 100%;
+    }
+
+    .querycol {
+        width: 20%;
+    }
+
+    .radio {
+        font-size: 14px;
+    }
+
 }
 
 
@@ -351,26 +411,4 @@ div#after-text.row {
     /* For mobile phones: */
 
     [class*="col-"]
-}
-
-.col-2 {
-    width: 40%;
-}
-
-#video1,
-#video2,
-#video3,
-#video4 {
-    width: 60%;
-}
-
-#diet-text .col-2 {
-    width: 0%;
-    padding: 0px;
-}
-
-#diet-text .col-3 {
-    width: 50%;
-    padding-left: 10px;
-}
 }
