@@ -91,9 +91,41 @@ nav#menu.row.header {
     font-weight: bold;
 }
 
+#thepeptalk {
+    width: 25%;
+    margin: 0%;
+}
+
+#theguide {
+    width: 20%;
+    margin: 0%;
+}
+
+#thediet {
+    width: 20%;
+    margin: 0%;
+}
+
 #logo {
+    font-size: 25px;
+    padding: 0px;
+    margin: 0%;
+    width: 100%;
     text-align: center;
     color: black;
+
+}
+
+#emptymenu1 {
+    width: 0%;
+}
+
+#emptymenu2 {
+    width: 20%;
+}
+
+#emptymenu3 {
+    width: 15%;
 }
 
 #logo:hover {
@@ -184,25 +216,6 @@ div#exercise3-4.row {
     margin-bottom: 30px;
 }
 
-.chest-triceps {
-    display: flex;
-    flex-direction: column;
-}
-
-.back-biceps {
-    display: flex;
-    flex-direction: column;
-}
-
-.shoulders-core {
-    display: flex;
-    flex-direction: column;
-}
-
-.legday {
-    display: flex;
-    flex-direction: column;
-}
 
 /* Diet Section */
 
@@ -295,10 +308,7 @@ footer a:hover {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
 
-    [class*="col-"] #socialcol {
-        width: 20%;
-
-    }
+    [class*="col-"] {}
 
     #social-col-2 {
         width: 20%;
@@ -348,11 +358,12 @@ footer a:hover {
     }
 
     .mealplan {
-        width: 100%
+        width: 85%;
     }
 
     .signup {
-        width: 100%;
+
+        width: 85%
     }
 
     .querycol {
@@ -363,52 +374,126 @@ footer a:hover {
         font-size: 14px;
     }
 
+    .chest-triceps {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .back-biceps {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shoulders-core {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .legday {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
 
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
-    [class*="col-"]
+    [class*="col-"] {}
+
+
+    #thepeptalk {
+        width: 25%;
+        margin: 0%;
+    }
+
+    #theguide {
+        width: 20%;
+        margin: 0%;
+    }
+
+    #thediet {
+        width: 20%;
+        margin: 0%;
+    }
+
+    #logo {
+        font-size: 25px;
+        padding: 0px;
+        margin: 0%;
+        width: 100%;
+    }
+
+    #emptymenu1 {
+        width: 0%;
+    }
+
+    #emptymenu2 {
+        width: 20%;
+    }
+
+    #emptymenu3 {
+        width: 15%;
+    }
+
+    #prebuilding,
+    #after-start {
+        width: 5%
+    }
+
+    #building {
+        width: auto;
+    }
+
+    #start {
+        width: auto;
+    }
+
+    .mealplan {
+        width: 75%;
+    }
+
+    #dietid {
+        width: 15%;
+
+    }
+
+    .formblock {
+        width: 20%;
+    }
+
+    .signup {
+        width: 60%;
+    }
+
+    .formblock-2 {
+        width: 20%;
+    }
 }
 
-#thepeptalk {
-    width: 25%;
-    margin: 0%;
-}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 
-#theguide {
-    width: 20%;
-    margin: 0%;
-}
+    [class*="col-"] {}
 
-#thediet {
-    width: 20%;
-    margin: 0%;
-}
+    .mealplan {
+        width: 35%;
+    }
 
-#logo {
-    font-size: 25px;
-    padding: 0px;
-    margin: 0%;
-    width: 100%;
-}
+    #dietid {
+        width: 10%;
 
-#emptymenu1 {
-    width: 0%;
-}
+    }
 
-#emptymenu2 {
-    width: 20%;
-}
+    .formblock {
+        width: 10%;
+    }
 
-#emptymenu3 {
-    width: 15%;
-}
+    .signup {
+        width: 35%;
+    }
 
+    .formblock-2 {
+        width: 10%;
 
-@media only screen and (min-width: 769) and (max-width: 1024px) {
-
-    /* For mobile phones: */
-
-    [class*="col-"]
-}
+    }
