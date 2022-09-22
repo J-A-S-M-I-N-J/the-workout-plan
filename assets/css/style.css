@@ -505,6 +505,7 @@ footer a:hover {
         gap: 100px;
         align-content: center;
         justify-content: space-between;
+        margin-top: 3%;
 
     }
 
@@ -514,6 +515,7 @@ footer a:hover {
         gap: 100px;
         align-content: center;
         justify-content: space-between;
+        margin-top: 3%;
     }
 
     .shoulders-core {
@@ -522,6 +524,7 @@ footer a:hover {
         gap: 100px;
         align-content: center;
         justify-content: space-between;
+        margin-top: 3%;
     }
 
     .legday {
@@ -530,6 +533,7 @@ footer a:hover {
         gap: 100px;
         align-content: center;
         justify-content: space-between;
+        margin-top: 3%;
     }
 
     #building {
@@ -538,4 +542,89 @@ footer a:hover {
 
     #start {
         margin-left: 15px;
+
+    }
+
+    .guidemargin {
+        margin-left: 5%;
+
+    }
+
+    .chesttopmargin {
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    [class*="col-"] {}
+
+    .mealplan {
+        width: 35%;
+    }
+
+    #dietid {
+        width: 10%;
+
+    }
+
+    .formblock {
+        width: 10%;
+    }
+
+    .signup {
+        width: 35%;
+
+    }
+
+    .formblock-2 {
+        width: 10%;
+
+    }
+
+    .chest-triceps {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: 3%;
+
+    }
+
+    .back-biceps {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+
+    .shoulders-core {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+
+    .legday {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+
+    .guidemargin {
+        margin-left: 5%;
+
+    }
+
+    .chesttopmargin {
+        margin-top: 50px;
     }
