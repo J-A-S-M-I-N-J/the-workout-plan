@@ -283,7 +283,7 @@ div#diet-text.row {
 .signup-button {
     margin-top: 15px;
     border-radius: 2px;
-    padding: 5px 14px 5px 14px;
+    padding: 0px 14px 0px 14px;
     text-align: center;
     font-size: 100%;
     background-color: black;
@@ -399,7 +399,7 @@ footer a:hover {
     }
 
     #vegetarian {
-        margin-left: 8.5px;
+        margin-left: 8.75px;
 
     }
 
@@ -471,11 +471,11 @@ footer a:hover {
     }
 
     .mealplan {
-        width: 75%;
+        width: 68%;
     }
 
     #empty-diet-block {
-        width: 15%;
+        width: 18%;
 
     }
 
@@ -484,7 +484,7 @@ footer a:hover {
     }
 
     .signup {
-        width: 65%;
+        width: 60%;
     }
 
     .empty-form-block-2 {
@@ -492,7 +492,7 @@ footer a:hover {
     }
 
     .radio {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -514,7 +514,7 @@ footer a:hover {
     }
 
     .signup {
-        width: 35%;
+        width: 30%;
 
     }
 
@@ -580,8 +580,23 @@ footer a:hover {
 
     .radio {
         font-size: 13px;
+        padding-right: 60px;
     }
 
+    #omnivore {
+        margin-left: 16.75px;
+
+    }
+
+    #vegan {
+        margin-left: 40px;
+
+    }
+
+    #vegetarian {
+        margin-left: 11px;
+
+    }
 }
 
 
@@ -603,7 +618,7 @@ footer a:hover {
     }
 
     .signup {
-        width: 35%;
+        width: 31%;
 
     }
 
@@ -657,6 +672,10 @@ footer a:hover {
     .chest-top-margin {
         margin-top: 50px;
     }
+
+    .radio {
+        font-size: 13px;
+    }
 }
 
 @media only screen and (min-width: 1201px) {
@@ -677,7 +696,7 @@ footer a:hover {
     }
 
     .signup {
-        width: 35%;
+        width: 32%;
 
     }
 
