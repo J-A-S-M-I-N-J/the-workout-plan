@@ -18,6 +18,12 @@ h3 {
     box-sizing: border-box;
 }
 
+#menu {
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -311,7 +317,10 @@ footer a:hover {
     color: #93bae1;
 }
 
-
+.video-wrapper {
+    width: 70%;
+    margin-left: 15%;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -534,7 +543,7 @@ footer a:hover {
     .leg-day {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
 
     }
 
@@ -543,6 +552,7 @@ footer a:hover {
     .leg-text,
     .chest-text {
         width: 50%;
+        margin-left: 15%;
 
     }
 
