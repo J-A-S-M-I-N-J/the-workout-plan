@@ -10,6 +10,7 @@ had issues with justify-content where the distance between wasnt the same for di
 having problems with creating a sticky header, doesent seem to work
 started cleaning up my code and making ids and classes make more sense to others
 when making media queries i realised i hadnt closed the element properly which caused a lot of confusion when i worked on responsivness 
+figuring out how to align text with the outer edge of the video box
 
 https://stackoverflow.com/questions/55739582/how-to-create-a-fixed-sticky-header-on-scroll-with-html-and-css-only
 https://codepen.io/phajek/pen/BbeqLG
