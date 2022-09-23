@@ -126,15 +126,15 @@ nav {
 
 }
 
-#emptymenu1 {
+#empty-menu-block-1 {
     width: 0%;
 }
 
-#emptymenu2 {
+#empty-menu-block-2 {
     width: 20%;
 }
 
-#emptymenu3 {
+#empty-menu-block-3 {
     width: 15%;
 }
 
@@ -167,7 +167,7 @@ a:hover {
     margin-top: 60px;
 }
 
-#pep {
+#peptalk-header {
     text-align: center;
 }
 
@@ -240,7 +240,7 @@ div#diet-text.row {
     margin-top: 20px;
 }
 
-#dietdiet {
+#diet-text-header {
     text-align: center;
 }
 
@@ -319,17 +319,12 @@ footer a:hover {
 
     [class*="col-"] {}
 
-    #social-col-2 {
+    #empty-social-block-2 {
         width: 20%;
 
     }
 
-    div#after-text.row {
-        margin-top: 15px;
-
-    }
-
-    #prebuilding {
+    #empty-building-block {
         width: 10%;
     }
 
@@ -342,7 +337,7 @@ footer a:hover {
         width: 100%;
     }
 
-    #after-start {
+    #empty-start-block {
         width: 10%;
     }
 
@@ -372,15 +367,15 @@ footer a:hover {
 
     .signup {
 
-        width: 85%
+        width: 65%;
     }
 
-    .querycol {
+    .empty-social-block-1 {
         width: 20%;
     }
 
     .radio {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .chest-triceps {
@@ -398,14 +393,30 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .legday {
+    .leg-day {
         display: flex;
         flex-direction: column;
     }
 
+    #vegetarian {
+        margin-left: 8.5px;
 
+    }
+
+    #omnivore {
+        margin-left: 15px;
+
+    }
+
+    #vegan {
+        margin-left: 40px;
+
+    }
+
+    .radio {
+        padding-right: 60px;
+    }
 }
-
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
@@ -434,20 +445,20 @@ footer a:hover {
         width: 100%;
     }
 
-    #emptymenu1 {
+    #empty-menu-block-1 {
         width: 0%;
     }
 
-    #emptymenu2 {
+    #empty-menu-block-2 {
         width: 20%;
     }
 
-    #emptymenu3 {
+    #empty-menu-block-3 {
         width: 15%;
     }
 
-    #prebuilding,
-    #after-start {
+    #empty-building-block,
+    #empty-start-block {
         width: 5%
     }
 
@@ -463,20 +474,20 @@ footer a:hover {
         width: 75%;
     }
 
-    #dietid {
+    #empty-diet-block {
         width: 15%;
 
     }
 
-    .formblock {
+    .empty-form-block {
         width: 20%;
     }
 
     .signup {
-        width: 60%;
+        width: 65%;
     }
 
-    .formblock-2 {
+    .empty-form-block-2 {
         width: 20%;
     }
 
@@ -493,7 +504,7 @@ footer a:hover {
         width: 35%;
     }
 
-    #dietid {
+    #empty-diet-block {
         width: 10%;
 
     }
@@ -540,7 +551,7 @@ footer a:hover {
         margin-top: 3%;
     }
 
-    .legday {
+    .leg-day {
         display: flex;
         flex-direction: row;
         gap: 100px;
@@ -558,12 +569,12 @@ footer a:hover {
 
     }
 
-    .guidemargin {
+    .guide-margin {
         margin-left: 5%;
 
     }
 
-    .chesttopmargin {
+    .chest-top-margin {
         margin-top: 50px;
     }
 
@@ -582,7 +593,7 @@ footer a:hover {
         width: 35%;
     }
 
-    #dietid {
+    #empty-diet-block {
         width: 10%;
 
     }
@@ -629,7 +640,7 @@ footer a:hover {
         margin-top: 3%;
     }
 
-    .legday {
+    .leg-day {
         display: flex;
         flex-direction: row;
         gap: 100px;
@@ -638,12 +649,12 @@ footer a:hover {
         margin-top: 3%;
     }
 
-    .guidemargin {
+    .guide-margin {
         margin-left: 5%;
 
     }
 
-    .chesttopmargin {
+    .chest-top-margin {
         margin-top: 50px;
     }
 }
@@ -656,7 +667,7 @@ footer a:hover {
         width: 35%;
     }
 
-    #dietid {
+    #empty-diet-block {
         width: 10%;
 
     }
@@ -702,7 +713,7 @@ footer a:hover {
         margin-top: 3%;
     }
 
-    .legday {
+    .leg-day {
         display: flex;
         flex-direction: row;
         gap: 100px;
@@ -711,28 +722,28 @@ footer a:hover {
         margin-top: 3%;
     }
 
-    .guidemargin {
+    .guide-margin {
         margin-left: 5%;
 
     }
 
-    .chesttopmargin {
+    .chest-top-margin {
         margin-top: 50px;
     }
 
-    .backpadding {
+    .back-padding {
         width: 15%;
     }
 
-    .shoulderpadding {
+    .shoulder-padding {
         width: 15%;
     }
 
-    .legpadding {
+    .leg-padding {
         width: 15%;
     }
 
-    .chestpadding {
+    .chest-padding {
         width: 15%;
     }
 
@@ -744,7 +755,7 @@ footer a:hover {
         margin-left: 15px;
     }
 
-    .eat {
+    .eat-header {
         margin-top: 30px;
     }
 }
