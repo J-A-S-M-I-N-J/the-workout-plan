@@ -9,7 +9,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-size: 125%;
 }
@@ -79,7 +79,7 @@ h3 {
 }
 
 
-/*   Logo & Header Stuff      */
+/*   Logo & Header Menu     */
 nav#menu.row.header {
     background-color: #f16c6b;
 }
@@ -186,9 +186,6 @@ div#guide.row {
 
 #guide-header {
     text-align: center;
-
-
-
 }
 
 #guide-flavor-text {
@@ -202,9 +199,7 @@ div#guide.row {
 #video4 {
     border: 2px solid #A2E4B8;
     padding: 0px;
-
 }
-
 
 div#after-text.row {
     margin-top: 15px;
@@ -240,7 +235,6 @@ div#diet-text.row {
     text-align: center;
 }
 
-
 .signup {
 
     margin-top: 2.5%;
@@ -262,7 +256,6 @@ div#diet-text.row {
     border: 1px solid black;
     border-radius: 2px;
     font-weight: bold;
-
 }
 
 .number-input {
@@ -296,6 +289,7 @@ div#diet-text.row {
 }
 
 /* Footer */
+
 footer {
     padding-top: 3%;
     padding-left: 4%;
@@ -306,6 +300,8 @@ footer {
 footer a:hover {
     color: #93bae1;
 }
+
+/* Media Queries */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -430,7 +426,11 @@ footer a:hover {
     }
 
     #menu {
-        width: 95.25%;
+        width: 96%;
+    }
+
+    .youtube {
+        width: 100%;
     }
 }
 
@@ -703,7 +703,7 @@ footer a:hover {
     }
 
     .signup {
-        margin-top: 2.5;
+        margin-top: 2.5%;
         width: 31%;
 
     }
