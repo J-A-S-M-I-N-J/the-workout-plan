@@ -152,7 +152,17 @@ a:hover {
     color: #A2E4B8;
 }
 
+
 /*   Peptalk Section     */
+
+
+#intro-section {
+
+    background-image: url('/assets/images/lemon2.jpg');
+    max-width: 100%;
+    height: auto;
+    background-position: right 40% bottom 45%;
+}
 
 #before h2 {
     text-align: center;
@@ -167,11 +177,15 @@ a:hover {
     text-align: center;
 }
 
+.peptalk-height {
+    padding-bottom: 40px;
+}
+
 /* Guide Section */
 
 div#guide.row {
     background-color: #A2E4B8;
-    margin-top: 40px;
+
     margin-bottom: 40px;
 }
 
