@@ -14,6 +14,7 @@ h3 {
     font-size: 125%;
 }
 
+/* This code-snippet (row 18-80) was taken from W3C and is the basis for the CSS-Grid system, link in README */
 * {
     box-sizing: border-box;
 }
@@ -134,7 +135,6 @@ nav#menu.row.header {
     width: 15%;
 }
 
-
 h1 {
     font-size: xx-large;
     margin: 0;
@@ -247,6 +247,7 @@ div#diet-text.row {
     text-align: center;
 }
 
+/* The form from the Love-Running project was used as a base and then later edited, link in README */
 .signup {
 
     margin-top: 2.5%;
@@ -313,7 +314,7 @@ footer a:hover {
     color: #93bae1;
 }
 
-/* Media Queries */
+/* Media Queries - W3Schools informed me about the width-spans and how to make the site responsive, link in README */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 

@@ -114,6 +114,8 @@
 
 - For the footer I was inspired by the code that we used for the [Love Running](https://github.com/J-A-S-M-I-N-J/Love-Running-Walkthrough-Jasmin) project.
 
+- The Form from [Love Running](https://github.com/J-A-S-M-I-N-J/Love-Running-Walkthrough-Jasmin) was used as a base and later edited. 
+
 ### Guides & Troubleshooting
 
 ### CSS Grid
@@ -131,6 +133,10 @@
 - [Stack Overflow](https://stackoverflow.com/questions/55739582/how-to-create-a-fixed-sticky-header-on-scroll-with-html-and-css-only)
 - [Codepen](https://codepen.io/phajek/pen/BbeqLG)
 - [CSS Deck](https://cssdeck.com/blog/how-to-make-a-sticky-header-step-by-step/) 
+
+### Media Queries  
+
+- [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 ## Media
 
