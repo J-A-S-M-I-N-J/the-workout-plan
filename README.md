@@ -6,7 +6,7 @@
 - The web-site consists of 3 sections - The Peptalk, The Guide and The Diet. 
 - Users of this website will hopefully be inspired, receive instructions on how to carry out their exercise-regimen, and lastly receive a meal-plan that will help them achieve greater health. 
 
-<img> ![A screenshot of the The Workout Plan web-page on smartphone, tablet, laptop and desktop](assets/images/responsive-jasmin.png)
+<img> ![A screenshot of the The Workout Plan web-page on smartphone, tablet, laptop and desktop](assets/images/responsivity.png)
 
 ## Features
 ---
@@ -24,7 +24,7 @@
 - The header page - The Peptalk, gives the user information about the importance of exercising and the other health benefits that it gives.
 - The section provides the user with the criterias for being able to get the most out of the The Workout Plan, and what we can offer. 
 
-<img> ![A screenshot showing the Peptalk/header-section of the page](assets/images/peptalk-jasmin.png)
+<img> ![A screenshot showing the Peptalk/header-section of the page](assets/images/peptalk3.png)
 
 ### The Guide Section
 
@@ -74,6 +74,9 @@
 - I struggled with creating a sticky header for my navigation menu.
   - Fixed with the `position:fixed;` property.
 
+- Wanted to add a background-image last minute and had major problems with getting the right crop of the image.
+  - Solved through learning about the background-position property.
+
 ## Validator Testing
 ---
 ### HTML
@@ -86,11 +89,15 @@
 ### Accessibility
 - Confirmed that fonts and colors are readable and site is accessisble through Lighthouse in DevTools. 
 
-<img> ![An image showing the scores of 100 in performance, accessibility and SEO and 93 in best practices in the Lighthouse Tool in DevTools.](assets/images/lighthouse-jasmin.png)
+<img> ![An image showing the scores of 100 in accessibility and SEO, 96 in performance and 93 in best practices in the Lighthouse Tool in DevTools.](assets/images/lighthouse2.png)
 
 ### Unfixed Bugs
 
-- No bugs known.
+- Due to the height of the sticky menu, the links in the navbar are actually linked a few rows above the section. 
+  - This also means that when you click The Peptalk in the sticky-menu, you wont be able to see the header unless you scroll. 
+  - This could have been solved by giving the Peptalk section-header more height, but I felt like there would be too many colors, and too much space between. 
+
+- To make the logo be on it's own row using CSS Grid, I gave the block a width of 100%. Visually this has no implications, however you are able to click the "invisible" index.html link to the right and left of it. 
 
 ## Deployment
 
@@ -133,3 +140,6 @@
 - [Youtube](https://www.youtube.com/embed/0Q8fETMjWqQ)
 - [Youtube](https://www.youtube.com/embed/xdRtqKr8yKI)
 - [Youtube](https://www.youtube.com/embed/3upx6bSFTSE)
+
+
+
